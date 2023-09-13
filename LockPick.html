@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Clave Secreta
+        </title>
+        <script type="text/javascript" src="LockPick.js"></script>
+        <link href="LockPick.css" rel="stylesheet" title="default">
+    </head>
+    <body onload="init()">
+        <div id="main">
+            <table style="text-align: center;">
+                <tr>
+                    <td colspan="4">
+                        Clave Secreta
+                    </td>
+                </tr>
+                <tr>
+                    <td id="slot1" style="background: white; filter: blur(0px);">
+                        <img id="image1" src="Assets/sprite_00.png" onclick="img(1)">
+                    </td>
+                    <td id="slot2" style="background: white; filter: blur(0px);">
+                        <img id="image2" src="Assets/sprite_00.png" onclick="img(2)">
+                    </td>
+                    <td id="slot3" style="background: white; filter: blur(0px);">
+                        <img id="image3" src="Assets/sprite_00.png" onclick="img(3)">
+                    </td>
+                    <td id="slot4" style="background: white; filter: blur(0px);">
+                        <img id="image4" src="Assets/sprite_00.png" onclick="img(4)">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <button onclick="decrypt()" id="verify_button">
+                            Verificar
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <p id="correct">
+                            Digitos Acertados: 0
+                        </p>
+                        <p id="remains">
+                            Intentos Restantes: 10
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+</html>
