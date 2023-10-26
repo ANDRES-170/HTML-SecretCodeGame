@@ -8,8 +8,8 @@
         <link href="LockPick.css" rel="stylesheet" title="default">
     </head>
     <body onload="init()">
-        <div id="main">
-            <table style="text-align: center;">
+        <div id="main" class="main">
+            <table style="text-align: center;" class="base">
                 <tr>
                     <td colspan="4">
                         Clave Secreta
@@ -47,6 +47,13 @@
                     </td>
                 </tr>
             </table>
+            <p style="text-align: center; font-family: Arial;" class="rules">
+                Instrucciones:
+                <br>
+                Haciendo click en cada casilla para cambiar el respectivo numero de ese cerrojo, luego de ajustar las casillas a como quiera el usuario se presiona el boton "Verificar".
+                <br>
+                En caso de que el numero de la casilla se acerce al numero del cerrojo, la casilla se pondra <span style="color: blue;">Azul</span>, Si esta en el numero indicado se pondra <span style="color: green;">Verde</span> de lo contrario la casilla se mantendra en blanco
+            </p>
         </div>
 
     </body>

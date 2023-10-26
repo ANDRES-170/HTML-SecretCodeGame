@@ -1,0 +1,17 @@
+.main {
+    margin-left: auto;
+}
+
+.base {
+    margin: auto;
+}
+
+body {
+    font-family: Arial;
+}
+
+@keyframes rules-anim1 {
+    0% {
+        
+    }
+}

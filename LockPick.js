@@ -117,6 +117,7 @@ function decrypt() {
         slot2.style.filter = "blur(10px)";
         slot3.style.filter = "blur(10px)";
         slot4.style.filter = "blur(10px)";
+        alert('Combinacion Correcta: '+ num1 + num2 + num3 + num4)
     }
 
 }
